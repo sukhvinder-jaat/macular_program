@@ -168,7 +168,7 @@ export const Videot = () => {
             </div>
           </Col>
         </Slider>
-        <div className="d-flex justify-content-center mt-5">
+        <div className="d-flex justify-content-center mt-5 mb-4">
           <button className="contact_btn border-0 position-relative btn_hover overflow-hidden rounded-pill p_15_30 clr_white ff_plus fw_600 fs_xsm">
             See all
           </button>
