@@ -39,7 +39,7 @@ export const RodneySlider = () => {
   };
   const buttons = React.useRef();
   return (
-    <div className="py-5 position-relative">
+    <div className="position-relative">
       <Container className="pb-5 container">
         <div className="d-flex align-items-center flex-column flex-sm-row">
           <button className="position-relative overflow-hidden btn_hover ff_roboto text-center text-lg-start fw_500 clr_white2 fs_sm amd_btn">
@@ -50,11 +50,11 @@ export const RodneySlider = () => {
           </button>
         </div>
       </Container>
-      <Slider className="" {...amd_slider} ref={buttons}>
+      <Slider className="pb-5" {...amd_slider} ref={buttons}>
         <div className="px-4">
           <div className="amd_slider_box p-sm-5 p-2">
             <Row>
-              <Col md={4} xs={12}>
+              <Col md={4} xs={12} className="p-sm-5 p-md-0 p-4">
                 <div className="position-relative slider_img_back">
                   <img
                     src={image_1_slider}
@@ -142,9 +142,9 @@ export const RodneySlider = () => {
         </div>
         {/* second */}
         <div className="px-4">
-          <div className="amd_slider_box p-sm-5 p-2">
+          <div className="amd_slider_box p-md-5 p-2">
             <Row>
-              <Col md={4} xs={12}>
+              <Col md={4} xs={12} className="p-sm-5 p-md-0 p-4">
                 <div className="position-relative slider_img_back">
                   <img
                     src={slider_img_2}
@@ -158,7 +158,7 @@ export const RodneySlider = () => {
                 xs={12}
                 className="d-flex flex-column justify-content-center"
               >
-                <div className="ps-xl-5 ps-sm-4">
+                <div className="ps-md-4">
                   <p className="ff_roboto text-center text-lg-start fw_400 fs_xsm2 clr_white2 opacity_08 position-relative coma_img mt-3 mt-sm-0">
                     My experience with the Rozakis institute/Advanced-Wellness
                     has been a success. I was receiving the eye shots, but after
@@ -177,7 +177,7 @@ export const RodneySlider = () => {
                       <img src={star} alt="star" className="w-100" />
                     </span>
                   </div>
-                  <div className="d-flex justify-content-center justify-content-lg-end pt-4 pt-lg-0">
+                  <div className="d-flex pb-4 pb-md-0 justify-content-center justify-content-lg-end pt-4 pt-lg-0">
                     <span
                       onClick={() => buttons.current.slickNext()}
                       className="pointer"

@@ -50,13 +50,13 @@ export const Videot = () => {
     ],
   };
   return (
-    <div className="bg_black py-5 position-relative">
+    <div className="bg_black py-lg-5 pt-5 position-relative">
       <div className="back_shadow shadow_animation position-absolute bottom-0 end-0"></div>
       <div className="back_shadow shadow_animation position-absolute video_shadow_3"></div>
       <div className="back_shadow shadow_animation position-absolute video_shadow_4"></div>
       <div className="back_shadow shadow_animation position-absolute middle_shadow"></div>
       <div className="back_shadow shadow_animation position-absolute start-0 side_video_shadow"></div>
-      <Container className="py-5 container position-relative">
+      <Container className="py-lg-5 pt-5 container position-relative">
         <p className="ff_plus fw_500 pb-5 fs_xl clr_white position-relative video_arrow text-center">
           Video Testimonials
         </p>
