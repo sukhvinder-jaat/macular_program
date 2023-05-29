@@ -13,7 +13,7 @@ const Preloader = () => {
       className="bg_section_1 min-vh-100 w-100  position-fixed top-0 start-0 loading"
     >
       <div className="d-flex justify-content-center align-items-center min-vh-100">
-        <span className="z-10 me-5">
+        <span className="z-10">
           <img src={pre} alt="pre" className="w-100" />
         </span>
       </div>

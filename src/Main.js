@@ -9,8 +9,9 @@ import App from "./js/App";
 import About from "./js/About";
 import Testimonials from "./js/Testimonials";
 import Preloader from "./components/Preloader";
+import { BackTop } from "./components/BackTop";
 function Main() {
-  AOS.init();
+  AOS.init({ once: true });
   return (
     <div className="overflow-hidden bg_black">
       <Preloader />
@@ -19,6 +20,7 @@ function Main() {
         <Route path="/About" element={<About />} />
         <Route path="/Testimonials" element={<Testimonials />} />
       </Routes>
+      <BackTop />
     </div>
   );
 }
